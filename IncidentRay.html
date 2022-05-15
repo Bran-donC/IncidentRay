@@ -1,0 +1,37 @@
+<!--
+Made by Brandon :)
+Created: 13/5/2022
+
+Inspiration: https://www.plymouth.ac.uk/uploads/production/document/path/3/3754/PlymouthUniversity_MathsandStats_outreach_lenses.pdf
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thin Lens Equation</title>
+        <link href=style.css rel=stylesheet>
+        <script src=main.js async></script>
+        <meta name=viewport content="width=device-width,initial-scale=1.0">
+    </head>
+
+    <body>
+   <!--Slider for incident angle reflector-->
+        <h1>Incident Ray Simulation</h1>
+        <div>
+            Incident Ray angle from normal (Degrees °)
+            <h4 id="angleText">°</h4>
+            <input type="range" min="1" max="90" value="45" id="angleSlider" oninput="fireRay()">
+        </div>
+        <div class="Labels">
+            <h2>
+                Ray of Incidence
+            </h2>
+            <h2>
+                Normal
+            </h2>
+            <h2>
+                Ray of Reflection
+            </h2>
+        </div>
+        <canvas id="rayCanvas"></canvas>
+    </body>
+</html>
