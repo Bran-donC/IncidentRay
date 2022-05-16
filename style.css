@@ -8,13 +8,13 @@ html{
 }
 
 canvas{
-    width: 100vw;
+    width: 99vw;
 }
 
 .Labels{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0;
     align-items: center;
     text-align: center;
